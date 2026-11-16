@@ -1,28 +1,32 @@
-# Vidhyatri Public Higher Secondary School
+# Vidhyatri Public Higher Secondary School — Multi-page Website
 
-Responsive school website for Vidhyatri Public Higher Secondary School, Gouthana, Betul, Madhya Pradesh.
+**Production URL:** https://vidhyatri-public-scl.vercel.app
 
-## Live website
+**Repository:** https://github.com/satitech-admin/vidhyatri-public-scl
 
-https://vidhyatri-public-scl.vercel.app
+## Pages
+
+- Home: `/`
+- About: `/about/`
+- Academics: `/academics/`
+- Facilities: `/facilities/`
+- Activities: `/activities/`
+- Gallery: `/gallery/`
+- Admissions & FAQ: `/admissions/`
+- Contact & Google Maps: `/contact/`
 
 ## Features
 
-- Responsive, accessible single-page school website
-- Home, About, Academics, Facilities, Activities, Gallery, Admissions, Contact and FAQ
-- Animated marquee, reveal effects, Font Awesome icons and scroll-to-top
-- Gallery with category filters and image preview
-- Google Maps embed and directions
-- Instagram, WhatsApp, email and click-to-call actions
+Responsive multi-page navigation, shared typography and styling, smooth scrolling, marquee, reveal animations, cards, iconography, Instagram, WhatsApp enquiries, click-to-call, email, gallery filters/lightbox and Google Maps.
 
-## Content notes
+## Technical structure
 
-- Photos are illustrative stock images **not** images of the real school's students or campus.
-- Board affiliation, classes, principal, contact and admission information should be verified with school management before being treated as official.
-- Only the supplied Instagram profile is linked; additional social accounts require verified official URLs.
-- There is no admissions backend or data collection; enquiry buttons open external contact channels.
-- Replace the temporary lettermark with the school's approved official logo when provided.
+Static multi-page HTML hosted on Vercel and automatically deployed from GitHub `main`. Each page is located at `<route>/index.html`. Shared assets: `assets/style.css` and `assets/site.js`.
 
-## Deployment
+## Important editorial notes
 
-Static HTML/CSS/JavaScript, deployed to Vercel from the GitHub `main` branch. Edit `index.html` to update content.
+- Illustrative stock photographs are **not** real pictures of school students/campus. Replace with licensed school photographs once received.
+- No official school logo was provided; the temporary lettermark is not an official crest.
+- Confirm board affiliation, principal, available classes, fees, school facilities and admissions conditions with the school before publication as official information.
+- There is no data-collecting admission form or management dashboard. Enquiry buttons currently link directly to WhatsApp/email.
+- Only the supplied Instagram account is linked; other accounts need verified official URLs.
